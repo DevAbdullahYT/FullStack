@@ -19,7 +19,7 @@ try {
     
 } catch (emailError) {
     console.error("Error sending verification email", emailError)
-    return{success:false, message:"failed to send verification emailf"}
+    return{success:false, message:"failed to send verification email"}
 }
     
 }
